@@ -1,0 +1,4 @@
+N=[1,-1,3,-7,5,7,-3,9]
+print("numbers in N :",N)
+y=list(filter(lambda x:x>0,N))
+print("positive numbers :",y)
